@@ -4,3 +4,6 @@
 
 This project is conducted by six students at Wellelsey College CS-315: Data Science for the Web.
 We are replicating a TikTok experiment paper by Boeker and Urman at the University of Zurich.
+
+#### Methods to run tests:
+1. 
