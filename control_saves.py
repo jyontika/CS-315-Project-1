@@ -11,7 +11,7 @@ class TiktokAudit(PageTiktok):
 
 control_audit = TiktokAudit()
 
-for i in range(5):
+for i in range(2):
     print(f"=========== CONTROL EXPERIMENT RUN #{i} ===========")
     control_audit.test_control()
     
