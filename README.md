@@ -10,7 +10,6 @@ We are replicating a TikTok experiment paper by Boeker and Urman at the Universi
 2. Open the control_saves.py and testing_saves.py
 3. Run both at the same by opening two terminals and entering each of the lines below (one in each terminal):
 
-'''
-python -m pytest tests/tiktok/test_active.py --html=report_active.html
-'''
+'''python -m pytest tests/tiktok/test_active.py --html=report_active.html'''
+
 
