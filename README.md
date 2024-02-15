@@ -23,7 +23,7 @@ python -m pytest tiktok/testing_saves.py --html=report_control.html
 6. Two windows should pop up with the page to the Tiktok login page and make sure to keep track of which page is for the control and which is for the testing
 7. Put the username and password
 8. The browsers should close when the script is finished
-9. Three files will show up in the data folder:
-       a) data_saved_videos = all of the data from the videos the script saved
-       b) save_data_all_videos = all of the data from the testing batches
-       c) control_data_all_videos = all of the data from the control batches
+9. Three files will show up in the data folder: <br />
+       a) data_saved_videos = all of the data from the videos the script saved <br />
+       b) save_data_all_videos = all of the data from the testing batches <br />
+       c) control_data_all_videos = all of the data from the control batches <br />
