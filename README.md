@@ -12,12 +12,12 @@ We are replicating a TikTok experiment paper by Boeker and Urman at the Universi
 4. Enter the line below in one terminal:
 
 ```
-python -m pytest tiktok/control_saves.py --html=report_active.html
+python -m pytest control_saves.py --html=report_active.html
 ```
 5. Immediately enter the next line below:
 
 ```
-python -m pytest tiktok/testing_saves.py --html=report_control.html
+python -m pytest testing_saves.py --html=report_control.html
 
 ```
 6. Two windows should pop up with the page to the Tiktok login page and make sure to keep track of which page is for the control and which is for the testing
