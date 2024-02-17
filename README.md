@@ -7,9 +7,10 @@ We are replicating a TikTok experiment paper by Boeker and Urman at the Universi
 
 #### Methods to run tests:
 1. Please clone the repo; leave the files in its folder
-2. Open the control_saves.py and testing_saves.py
-3. Run both at the same by opening two terminals and directing both terminals to the folder containing this repo
-4. Enter the line below in one terminal:
+2. pip install seleniumbase in terminal if you haven't already
+3. Open the control_saves.py and testing_saves.py
+4. Run both at the same by opening two terminals and directing both terminals to the folder containing this repo
+5. Enter the line below in one terminal:
 
 ```
 python -m pytest control_saves.py --html=report_active.html
