@@ -20,7 +20,7 @@ python -m pytest control_saves.py --html=report_active.html
 python -m pytest testing_saves.py --html=report_control.html
 
 ```
-6. Two windows should pop up with the page to the Tiktok login page and make sure to keep track of which page is for the control and which is for the testing
+6. Two windows should pop up with the page to the Tiktok login page and **make sure to keep track of which page is for the control and which is for the testing**
 7. Put the username and password
 8. The browsers should close when the script is finished
 9. Three files will show up in the data folder: <br />
