@@ -10,7 +10,7 @@ class TiktokAudit(PageTiktok):
 
 experimental_audit = TiktokAudit()
 
-for i in range(1):
+for i in range(5):
     print(f"=========== SAVING EXPERIMENT RUN #{i} ===========")
     experimental_audit.test_save_random()
     

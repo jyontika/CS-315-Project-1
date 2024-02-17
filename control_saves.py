@@ -11,8 +11,8 @@ class TiktokAudit(PageTiktok):
 
 control_audit = TiktokAudit()
 
-for i in range(1):
+for i in range(5):
     print(f"=========== CONTROL EXPERIMENT RUN #{i} ===========")
     control_audit.test_control()
     
-# should create 5 csv files of all the videos (for 5 "batches")
+# should create 5 csv files of all the videos (for 5 "batches")  
