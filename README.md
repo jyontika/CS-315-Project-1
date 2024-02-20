@@ -31,6 +31,8 @@ python -m pytest testing_saves.py --html=report_control.html
        c) control_data_all_videos = all of the data from the control batches <br />
        
 ## Data Analysis
-All notebooks and files used are in Our-Data-Analysis:
+All notebooks and files used are in the Data-Analysis folder:
 
 1. **Jaccard-And-Summary-Analysis.ipynb** : Includes code for exploratory analysis, calculating summary statistics, graphing distribution of batch sizes, and analyzing difference of feeds using the Jaccard Index.
+2. **Bar-Plots.ipynb** :
+3. **Popularity Analysis** :
