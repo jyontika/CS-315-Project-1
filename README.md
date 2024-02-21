@@ -35,7 +35,7 @@ This folder is a duplicate of our data, but with each CSV file in the folder of 
 
 
 ## Data Analysis
-All notebooks and files used are in the Data-Analysis folder:
+All notebooks and files used are in the Our-Data-Analysis folder:
 
 1. **Jaccard-And-Summary-Analysis.ipynb** : Includes code for exploratory analysis, calculating summary statistics, graphing distribution of batch sizes, and analyzing difference of feeds using the Jaccard Index.
 2. **Bar-Plots.ipynb** : This notebook includes codes for graphics that count the frequency of hashtags, authors, etc. It also includes graphics made for summary statistics.
