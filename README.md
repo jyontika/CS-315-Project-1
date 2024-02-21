@@ -1,10 +1,11 @@
 # CS-315-Project-1
 #### @authors: Jyontika Kapoor, Ashley You, Ryan Boone, Audrey Yip, Josie Ramírez, Miraya Gupta
-##### Project Topic: Followers
+## Project Topic: Followers
 
 This project is conducted by six students at Wellesley College CS-315: Data Science for the Web.
 We are replicating a TikTok experiment paper by Boeker and Urman at the University of Zurich.
 
+## Data Collection
 #### Methods to run tests:
 1. Please clone the repo; leave the files in its folder
 2. pip install seleniumbase in terminal if you haven't already
@@ -28,3 +29,14 @@ python -m pytest testing_saves.py --html=report_control.html
        a) data_saved_videos = all of the data from the videos the script saved <br />
        b) save_data_all_videos = all of the data from the testing batches <br />
        c) control_data_all_videos = all of the data from the control batches <br />
+
+## data_copy_for_eni 
+This folder is a duplicate of our data, but with each CSV file in the folder of the student who ran it. 
+
+
+## Data Analysis
+All notebooks and files used are in the Our-Data-Analysis folder:
+
+1. **Jaccard-And-Summary-Analysis.ipynb** : Includes code for exploratory analysis, calculating summary statistics, graphing distribution of batch sizes, and analyzing difference of feeds using the Jaccard Index.
+2. **Bar-Plots.ipynb** : This notebook includes codes for graphics that count the frequency of hashtags, authors, etc. It also includes graphics made for summary statistics.
+3. **Popularity Analysis** :
